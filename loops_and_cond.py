@@ -30,3 +30,31 @@ i=0
 while i<len(vowels)
   print(vowels(i))
   i++
+for iterating_var in sequence:
+   for iterating_var in sequence:
+      statements(s)
+   statements(s)
+The syntax for a nested while loop statement in Python programming language is as follows −
+
+while expression:
+   while expression:
+      statement(s)
+   statement(s)
+A final note on loop nesting is that you can put any type of loop inside of any other type of loop. For example a for loop can be inside a while loop or vice versa.
+
+Example
+The following program uses a nested for loop to find the prime numbers from 2 to 100 −
+
+ Live Demo
+#!/usr/bin/python
+
+i = 2
+while(i < 100):
+   j = 2
+   while(j <= (i/j)):
+      if not(i%j): break
+      j = j + 1
+   if (j > i/j) : print i, " is prime"
+   i = i + 1
+
+print "Good bye!"
