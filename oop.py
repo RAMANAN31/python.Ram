@@ -19,3 +19,8 @@ person2 = Person("Bob", 25)
 # Call the method to display information for each person
 person1.display_info()  # Output: Name: Alice, Age: 30
 person2.display_info()  # Output: Name: Bob, Age: 25
+
+Creating an object is necessary when a built-in data type is not appropriate.
+Correct
+
+A class can be created when the built-in data types cannot be used.
