@@ -10,3 +10,5 @@ color= input("favourite color")
 print(name)
 print(color)
 print('hi'+name +'!'+color+'is a good color')#prints all the individual strings together
+#String Formatting Operator
+print "my name is %s and i am from %s ,my height is %d and my cgpa is %.2f"%('ramanan','vellore',170,8.1)
