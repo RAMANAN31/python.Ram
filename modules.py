@@ -11,7 +11,7 @@ import random # gives us random numbers ina given range
 result= random.randint(1,100)
 print(result)
 # or u can give your data and take out the random values
-movies=[tarzan,lone ranger,aladin,pirates of the caribbean,looper]
+movies=[tarzan,lone ranger,aladin,pirates of the caribbean,mirzapur,looper]
 
 
 res=random.choice(movies)
