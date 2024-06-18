@@ -10,7 +10,7 @@ def sum_digits(n)
  if n<10:
    return n
  else:
-   before_last=n//10
+   before_last=n//10 #floor division
    last=n%10
    return sum_digits(before_last)+last
    # Note that integer division, denoted by the double forward slash, expresses the result of the division as 
