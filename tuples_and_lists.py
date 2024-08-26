@@ -7,7 +7,7 @@ To access values in lists, use the square brackets for slicing along with the in
 list1 = ['physics', 'chemistry', 1997, 2000];
 list2 = [1, 2, 3, 4, 5, 6, 7 ];
 print "list1[0]: ", list1[0]
-print "list2[1:5]: ", list2[1:5]
+print "list2[1:5]: ",ist2[1:5]
 When the above code is executed, it produces the following result −
 
 list1[0]:  physics
